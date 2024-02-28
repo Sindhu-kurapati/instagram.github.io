@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@300;400;500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    background: black;
+    color: white;
+    font-family: "Oswald";
+    height: auto;
+}
+@media (min-width:350px){
+    .header{
+        display: flex;
+        justify-content: space-between;
+        padding: 0.8rem;
+    }
+    .left{
+        display: flex;
+        justify-content: center;
+    }
+    .header .left i{
+        padding-top: 5px;
+    }
+    i{
+        margin: 0 0.8rem;
+    }
+    .profileInfo img{
+        height: 90px;
+        width: 90px;
+        border-radius: 50%;
+    }
+    .profileStats{
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        margin-top: 10px;
+    }
+    .stat{
+        margin: auto;
+        text-align: center;
+    }
+    .bio{
+        padding: 0.8rem;
+    }
+    .bio span{
+        font-size: 0.8rem;
+        font-weight: lighter;
+        color: darkgray;
+    }
+    .bio p{
+        font-size: 0.9rem;
+    }
+    .bio a{
+        font-size: 0.7rem;
+    }
+    .highlights{
+        display: flex;
+        justify-content: space-evenly;
+    
+    }
+    .story{
+        text-align: center;
+    }
+    .story img{
+        border-radius: 50%;
+        height: 60px;
+        width: 60px;
+    }
+    .posts{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 1rem;
+        grid-gap:0.2rem;
+    }
+    .posts img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+@media (min-width:750px){
+    .header{
+    font-size: 1.9rem;
+    }
+    .profileInfo img{
+
+        height: 150px;
+        width: 150px;
+    }
+    .profileStats{
+        font-size: 2rem;
+    }
+    .bio p{
+        font-size: 1.3rem;
+    }
+    .bio span{
+        font-size: 1.3rem;
+
+    }
+    .bio a{
+        font-size: 1.3rem;
+    }
+    .story img{
+        height: 90px;
+        width: 90px;
+    }
+    .story{
+        font-size: 1.3rem;
+    }
+}
